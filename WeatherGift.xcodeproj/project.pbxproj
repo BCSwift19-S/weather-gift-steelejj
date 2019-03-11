@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		AF77E2ED2235D47F00C7811A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77E2EC2235D47F00C7811A /* AppDelegate.swift */; };
-		AF77E2EF2235D47F00C7811A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77E2EE2235D47F00C7811A /* ViewController.swift */; };
 		AF77E2F22235D47F00C7811A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF77E2F02235D47F00C7811A /* Main.storyboard */; };
 		AF77E2F42235D48000C7811A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF77E2F32235D48000C7811A /* Assets.xcassets */; };
 		AF77E2F72235D48100C7811A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF77E2F52235D48100C7811A /* LaunchScreen.storyboard */; };
 		AF77E3022235D48100C7811A /* WeatherGiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77E3012235D48100C7811A /* WeatherGiftTests.swift */; };
 		AF77E30D2235D48100C7811A /* WeatherGiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77E30C2235D48100C7811A /* WeatherGiftUITests.swift */; };
+		AF77E31B2235D63700C7811A /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77E31A2235D63700C7811A /* DetailVC.swift */; };
+		AF77E31D2235DAAE00C7811A /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77E31C2235DAAE00C7811A /* ListVC.swift */; };
+		AF77E31F2235DC8B00C7811A /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77E31E2235DC8B00C7811A /* PageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		AF77E2E92235D47F00C7811A /* WeatherGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF77E2EC2235D47F00C7811A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF77E2EE2235D47F00C7811A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF77E2F12235D47F00C7811A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF77E2F32235D48000C7811A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF77E2F62235D48100C7811A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		AF77E3082235D48100C7811A /* WeatherGiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherGiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF77E30C2235D48100C7811A /* WeatherGiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherGiftUITests.swift; sourceTree = "<group>"; };
 		AF77E30E2235D48100C7811A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF77E31A2235D63700C7811A /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		AF77E31C2235DAAE00C7811A /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		AF77E31E2235DC8B00C7811A /* PageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				AF77E2EC2235D47F00C7811A /* AppDelegate.swift */,
-				AF77E2EE2235D47F00C7811A /* ViewController.swift */,
+				AF77E31E2235DC8B00C7811A /* PageVC.swift */,
+				AF77E31A2235D63700C7811A /* DetailVC.swift */,
+				AF77E31C2235DAAE00C7811A /* ListVC.swift */,
 				AF77E2F02235D47F00C7811A /* Main.storyboard */,
 				AF77E2F32235D48000C7811A /* Assets.xcassets */,
 				AF77E2F52235D48100C7811A /* LaunchScreen.storyboard */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF77E2EF2235D47F00C7811A /* ViewController.swift in Sources */,
+				AF77E31D2235DAAE00C7811A /* ListVC.swift in Sources */,
+				AF77E31F2235DC8B00C7811A /* PageVC.swift in Sources */,
 				AF77E2ED2235D47F00C7811A /* AppDelegate.swift in Sources */,
+				AF77E31B2235D63700C7811A /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
