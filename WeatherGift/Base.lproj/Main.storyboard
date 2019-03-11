@@ -75,6 +75,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="currentImage" destination="q7q-ZI-u7K" id="mHt-lD-IQD"/>
+                        <outlet property="dateLabel" destination="9Kv-Hz-Wja" id="mKY-2p-3Le"/>
+                        <outlet property="locationLabel" destination="h0g-5t-ykO" id="ax8-ec-zmc"/>
+                        <outlet property="summaryLabel" destination="ahM-LF-5kR" id="wxz-wZ-8cX"/>
+                        <outlet property="temperatureLabel" destination="39N-zL-efH" id="o4V-eE-4aA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
